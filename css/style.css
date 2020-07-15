@@ -12,17 +12,27 @@ h1, h2{
 
 
 h1{
-	font-size: 50px;
+	font-size: 60px;
+	
+}
+
+h2{
+	font-size: 20px;
+	font-weight: 600;
 }
 
 span{
-	width: 50px;
+	width: 80px;
+	font-size: 18px;
+	font-weight: 600;
 }
 
 
 #div-color-ranges{
 	text-align: center;
 	padding-top: 50px;
+	
+	
 }
 
 
@@ -32,8 +42,8 @@ span{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: left;
-	padding: 40px;
+	justify-content: center;
+	padding: 50px;
 
 
 
@@ -43,11 +53,15 @@ span{
 input[type='range']{
 	cursor: pointer;
 	width: 500px;
+	margin-right: 10px;
 	
 }
 
+
 input[type='text']{
-	width: 50px;
+	width: 40px;
+	text-align: center;
+
 
 
 	
