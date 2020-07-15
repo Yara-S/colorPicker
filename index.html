@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Picker</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+<h1>Color Picker</h1>
+<h2>Your single page RGB color picker! :)</h2>
+
+<div id="div-color-ranges">
+
+	<div class="color-group"> 
+	<span>R</span>
+	 <input type="range" name="Red" min=0 max=255 id="red_range" value=255 autocomplete="off" >
+	 <input type="text" id="red_counter" value=255 disabled autocomplete="off">
+	</div>
+
+	<div class="color-group"> 
+	<span>G</span>
+	 <input type="range" name="Green" min=0 max=255 value=255 autocomplete="off">
+	 <input type="text" id="green_counter" value=255 disabled autocomplete="off">
+	</div>
+
+	<div class="color-group"> 
+	<span>B</span>
+	 <input type="range" name="Blue" min=0 max=255 value=255 autocomplete="off">
+	 <input type="text" id="blue_counter" value=255 disabled autocomplete="off">
+	</div>
+	
+
+</div>
+<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
