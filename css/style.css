@@ -1,0 +1,55 @@
+body{
+	font-family: vantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	padding: 20px;
+	padding-top: 60px;
+	background-color: #ffffff;
+}
+
+h1, h2{
+	text-align: center;
+	padding: 20px;
+}
+
+
+h1{
+	font-size: 50px;
+}
+
+span{
+	width: 50px;
+}
+
+
+#div-color-ranges{
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+
+.color-group{
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+	padding: 40px;
+
+
+
+
+}
+
+input[type='range']{
+	cursor: pointer;
+	width: 500px;
+	
+}
+
+input[type='text']{
+	width: 50px;
+
+
+	
+}
+
